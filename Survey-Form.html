@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">The best seasonal manga</h1>
+    <p id="description">please fill out this form, thank you</p>
+
+    <form id="survey-form">
+      <label for="name" id="name-label">
+        Name:
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </label>
+      <label for="email" id="email-label">
+        Email:
+        <input type="email" id="email" placeholder="Enter your email" required />
+      </label>
+      <label for="number" id="number-label">
+        Age:
+        <input type="number" id="number" placeholder="How Old Are You?" min="13" max="40" />
+      </label>
+      <label for="dropdown" id="dropdown-label">
+        when did you know anime?:
+        <select id="dropdown">
+          <option>told friends</option>
+          <option>when playing at a friend's house</option>
+          <option>bla</option>
+          <option>bla</option>
+          <option>bla</option>
+        </select>
+      </label>
+      <label for="opinion" id="opinion-label"> Who is the best <strong>Waifu</strong> of this year in your opinion </label>
+      <input type="radio" name="opinion" value="1" checked />Kasumi Miwa (Jujutsu Kaisen) <br />
+      <input type="radio" name="opinion" value="2" /> Kiryuu, Shino (Kanojo mo Kanojo ) <br />
+      <input type="radio" name="opinion" value="3" />Shion (Tensei shitara Slime Datta Ken ) <br />
+      <input type="radio" name="opinion" value="4" />Hayase Nagatoro (Ijiranaide, Nagatoro-san ) <br />
+      <input type="radio" name="opinion" value="5" />Nakano Miku (5-toubun no Hanayome ) <br />
+      <input type="radio" name="opinion" value="6" />Kyoko Hori (Horimiya) <br />
+      <input type="radio" name="opinion" value="7" />Rem (Re:Zero kara Hajimeru) <br />
+      <input type="radio" name="opinion" value="8" />Ram (Re:Zero kara Hajimeru) <br />
+      <input type="radio" name="opinion" value="9" /> Alice (Shinigami Bocchan to Kuro Maid ) <br />
+      <input type="radio" name="opinion" value="10" />Sasha Blouse (Shingeki no Kyojin ) <br />
+      <br /><br />
+      <label for="opinion" id="opinion-label"> What is the best anime of this season in your opinion </label>
+      <input type="checkbox" value="Blue-Period" checked />Blue Period <br />
+      <input type="checkbox" value="Komi-san-wa-Comyushou-desu." />Komi-san wa, Comyushou desu. <br />
+      <input type="checkbox" value="Mushoku-Tense-Isekai-Ittara-Honki-Dasu-Part-2" />Mushoku Tensei: Isekai Ittara Honki Dasu Part 2 <br />
+      <input type="checkbox" value="Kimetsu-no-Yaiba:-Mugen-Ressha-hen " />Kimetsu no Yaiba: Mugen Ressha-hen <br />
+      <input type="checkbox" value="Senpai-ga-Uzai-Kouhai-no-Hanashi" />Senpai ga Uzai Kouhai no Hanashi <br />
+      <input type="checkbox" value="Shuumatsu-no-Harem" />Shuumatsu no Harem <br />
+      <input type="checkbox" value="Taishou-Otome-Otogibanashi" />Taishou Otome Otogibanashi <br />
+      <input type="checkbox" value="Kaginado" />Kaginado <br />
+      <input type="checkbox" value="Lupin-III:-Part-6" />Lupin III: Part 6 <br />
+      <br /><br />
+      <label for="comments" id="comments-label">
+        Any comments or suggestions?
+        <textarea id="comments" cols="30" rows="10"></textarea>
+      </label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
